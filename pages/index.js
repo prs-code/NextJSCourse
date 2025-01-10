@@ -1,12 +1,18 @@
-import Head from 'next/head'
-import { Inter } from '@next/font/google'
-import Link from 'next/link'
-import styles from '../styles/Home.module.css'
+import Link from 'next/link';
+import { FaArrowRightLong } from "react-icons/fa6";
 
 export default function Home() {
   return (
-    <>
-      <h1>Next JS Learning ...</h1>
-    </>
+    <div className="main-next-container">
+      <h2 className="next-title">Next JS Learning ...</h2>
+      <Link href="/SSG">
+        <FaArrowRightLong className="link-pages-icon" />
+        Go To SSG Page
+      </Link>
+      <Link href="/ISR">
+        <FaArrowRightLong className="link-pages-icon" />
+        Go To ISR Page
+      </Link>
+    </div>
   )
 }
