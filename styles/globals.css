@@ -142,7 +142,8 @@ a:hover {
 
 .ssg-container,
 .static-paths-container,
-.isr-container {
+.isr-container,
+.ssr-container {
   padding: 20px;
   margin: 15px;
   border-radius: 8px;
@@ -151,7 +152,8 @@ a:hover {
 
 .ssg-container .ssg-title,
 .static-paths-container .static-paths-title,
-.isr-container .isr-title {
+.isr-container .isr-title,
+.ssr-container .ssr-title {
   display: block;
   width: auto;
   padding: 5px;
@@ -160,7 +162,8 @@ a:hover {
 }
 
 .ssg-container p,
-.isr-container p {
+.isr-container p,
+.ssr-container p {
   color: goldenrod;
   margin-bottom: 10px;
 }

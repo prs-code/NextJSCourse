@@ -13,6 +13,10 @@ export default function Home() {
         <FaArrowRightLong className="link-pages-icon" />
         Go To ISR Page
       </Link>
+        <Link href="/SSR">
+            <FaArrowRightLong className="link-pages-icon" />
+            Go To SSR Page
+      </Link>
     </div>
   )
 }
